@@ -1,0 +1,93 @@
+.form{
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.form_firstname{
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  margin-left: 15px;
+  border-color: pink;
+
+}
+.form_firstname:hover {
+  border-color: rgb(92, 88, 88);
+}
+
+.form_lastname:hover {
+  border-color: rgb(92, 88, 88);
+}
+
+.form_lastname{
+  height: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  margin-left: 15px;
+  border-color: pink;
+
+}
+
+
+.button{
+  background-color: pink;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+ 
+
+}
+
+.button:hover {
+  background-color: rgb(245, 121, 141);
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
